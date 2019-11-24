@@ -9,7 +9,7 @@ public class Task4 {
             System.out.println(a - 1);
         }
         else if (a <= 1 && a >= 0) {
-            System.out.println("Нет");
+            System.out.println("Расстояния не существует");
         }
         else if(a < 0) {
             System.out.println(0 - a);
