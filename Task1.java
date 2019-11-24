@@ -5,10 +5,7 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        for (int i = 1; i <= 3; i++) {
-            System.out.println("Итерация " + i);
-            System.out.println("Введите 3 числа");
+        System.out.println("Введите 3 числа");
 
             int number1 = scanner.nextInt();
             int number2 = scanner.nextInt();
@@ -21,4 +18,4 @@ public class Task1 {
             }
         }
     }
-}
+
